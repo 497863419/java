@@ -12,9 +12,14 @@ public class shellSort {
     public static void main(String[] args) {
         int[] arr = {8, 9, 1, 7, 2, 3, 5, 4, 6, 0};
         System.out.println(Arrays.toString(arr));
+<<<<<<< HEAD
       //  shellSort(arr);
        // System.out.println("=====================");
         shellSort2(arr);
+=======
+        shellSort(arr);
+        System.out.println(Arrays.toString(arr));
+>>>>>>> 96c873c52f32d6075773379a63a0a95556af581c
     }
 
     public static void shellSort(int[] arr) {
@@ -30,6 +35,7 @@ public class shellSort {
 
                 }
             }
+<<<<<<< HEAD
             System.out.println(Arrays.toString(arr));
         }
     }
@@ -49,6 +55,8 @@ public class shellSort {
 
             }
             System.out.println(Arrays.toString(arr));
+=======
+>>>>>>> 96c873c52f32d6075773379a63a0a95556af581c
         }
     }
 
